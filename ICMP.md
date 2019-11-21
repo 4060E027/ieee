@@ -25,3 +25,19 @@ https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B
 #### ICMP Message Format封包格式:
 
 ![ICMP 封包格式](13-14.png)
+
+# ICMP 封包格式，其各欄位功能如下：
+```
+
+(1) 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 13-2 所示。
+
+(2) 編碼（Code）：對各種訊息型態進一步說明工作內容。
+
+(3) 檢查集檢查碼（Checksum）：對該封包檢查集錯誤偵測。
+
+(4) 訊息說明（Message description）：依照不同的控制訊息，而有不同的說明方式。
+
+(5) 訊息資料（Message Data）：依照不同的控制訊息，而有不同的資料表示。
+```
+
+![ICMP 封包格式](13-15.png)
