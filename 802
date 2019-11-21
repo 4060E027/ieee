@@ -1,3 +1,5 @@
+# IEEE 802
+'''
 IEEE 802.1：高層區域網路協定（Bridging (networking) and Network Management）
 IEEE 802.2：邏輯鏈路控制（Logical link control）
 IEEE 802.3：乙太網路（Ethernet）
@@ -23,3 +25,4 @@ IEEE 802.20：移動寬頻無線接入（Mobile Broadband Wireless Access）
 IEEE 802.21：媒介獨立換手（Media Independent Handover）
 IEEE 802.22：無線區域網（Wireless Regional Area Network）
 IEEE 802.23：緊急服務工作群組（Emergency Services Working Group），2010年3月新發布
+'''
