@@ -24,7 +24,7 @@ https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B
 ```
 #### ICMP Message Format封包格式:
 
-![ICMP 封包格式](13-14.png)
+![](13-14.png)
 
 # ICMP 封包格式，其各欄位功能如下：
 ```
@@ -70,7 +70,7 @@ ICMP 訊息功能
 
 18  |  Address Mask Reply（位址遮罩回覆）
 ```
-![ICMP 封包格式](13-15.png)
+![](13-15.png)
 ```
 http://www.tsnien.idv.tw/Network_WebBook/chap13/13-5%20ICMP%20%E9%80%9A%E8%A8%8A%E5%8D%94%E5%AE%9A.html
 ```
