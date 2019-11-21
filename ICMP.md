@@ -29,7 +29,7 @@ https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B
 # ICMP 封包格式，其各欄位功能如下：
 ```
 
-(1) 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如表 13-2 所示。
+(1) 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如下表所示。
 
 (2) 編碼（Code）：對各種訊息型態進一步說明工作內容。
 
@@ -39,7 +39,37 @@ https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B
 
 (5) 訊息資料（Message Data）：依照不同的控制訊息，而有不同的資料表示。
 ```
+```
+Message Type
 
+ICMP 訊息功能
+
+0  |  Echo Reply（回應答覆）
+
+3  |  Destination Unreachable（目的地無法到達）
+
+4  |  Source Quench（來源抑制）
+
+5  |  Redirect（改變傳輸路徑）
+
+8  |  Echo Request（回應要求）
+
+11  |  Time Exceeded for a Datagram（溢時傳輸）
+
+12  |  Parameter Problem on a Datagram（參數問題）
+
+13  |  Timestamp Request（時間標籤要求）
+
+14  |  Timestamp Reply（時間標籤回覆）
+
+15  |  Information Request（資訊要求）（停用）
+
+16  |  Information Reply（資訊回覆）（停用）
+
+17  |  Address Mask Request（位址遮罩要求）
+
+18  |  Address Mask Reply（位址遮罩回覆）
+```
 ![ICMP 封包格式](13-15.png)
 ```
 http://www.tsnien.idv.tw/Network_WebBook/chap13/13-5%20ICMP%20%E9%80%9A%E8%A8%8A%E5%8D%94%E5%AE%9A.html
