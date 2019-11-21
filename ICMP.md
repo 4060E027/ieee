@@ -29,7 +29,7 @@ https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B
 # ICMP 封包格式，其各欄位功能如下：
 ```
 
-(1) 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如下表所示。
+(1) 訊息型態（Message Type）：表示該 ICMP 所欲控制之訊息型態，共有 13 種型態，訊息型態之型態代表值如下表Message Type所示。
 
 (2) 編碼（Code）：對各種訊息型態進一步說明工作內容。
 
