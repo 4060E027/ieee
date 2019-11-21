@@ -1,4 +1,5 @@
 # TCP/IP協定
+![ICMP 封包格式](TCP-Header-Format.png)
 # 網際層（Internet Layer）
 ```
 IP（Internet Protocol）：網際通訊協定。
