@@ -1,6 +1,6 @@
 # TCP/IP協定
 ```
-##網際網路協議（英語：Internet Protocol Suite，縮寫IPS）
+網際網路協議（英語：Internet Protocol Suite，縮寫IPS）
 是一個網路通訊模型，以及一整個網路傳輸協定家族，為網際網路的基礎通訊架構。
 它常被通稱為TCP/IP協定套組（英語：TCP/IP Protocol Suite，或TCP/IP Protocols），簡稱TCP/IP。
 因為該協定家族的兩個核心協定：TCP（傳輸控制協定）和IP（網際網路協定），為該家族中最早通過的標準。
