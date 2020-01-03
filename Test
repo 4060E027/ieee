@@ -1,0 +1,107 @@
+1.最小權限原則 (Principle of least privilege)
+最小權限原則是要求計算環境中的特定抽象層的每個模組如進程、用戶或者電腦程式只能訪問當下所必需的信息或者資源
+保護數據以及功能避免受到錯誤或者惡意行為的破壞
+
+2.原型（prototype）|概念驗證（poc, proof of concept）
+原型是屬於中到高度擬真來呈現最終使用者介面的方法
+原型的目的即是模擬使用者與介面之間的互動
+概念驗證是對某些想法的一個較短而不完整的實現，以證明其可行性，示範其原理
+目的是為了驗證一些概念或理論
+
+3.單元測試（unit test）
+是針對程式模組（軟體設計的最小單位）來進行正確性檢驗的測試工作
+以證實程式達到軟體規格書要求的工作目標，沒有程式錯誤
+
+4.驗收測試（acceptance test）
+為開發新軟體工作時測試階段的一個步驟，在系統測試完成後，會同用戶進行本測試
+因完全根據說明書進行，係假設對內部程式毫無所知（則視程式為黑箱子）。
+測試時所有軟體均加以測試，其表現的性能（如正確性、方便性、多功及其限制條件有關資訊均應記錄，以供是否可以驗收，及後續使用及維護上參考。
+
+5.先導轉換（pilot conversion）
+新系統先由一部門試用，若使用狀況良好再全面推廣到各部門。
+適用風險高，規模大的系統
+
+6.記憶體階層(Memory hierarchy)
+記憶體階層是在電腦架構下儲存系統階層的排列順序。
+每一層於下一層相比都擁有較高的速度和較低延遲性，以及較小的容量
+
+7.機器週期
+為CPU執行一個指令的過程
+解取 解碼 執行 儲存
+
+8.RAID[RAID 0 / RAID 1/RAID 0+1]、NAS、SAN
+容錯式磁碟陣列
+利用虛擬化儲存技術把多個硬碟組合起來，成為一個或多個硬碟陣列組
+網路附加儲存
+是一種專門的資料儲存技術的名稱，它可以直接連接在電腦網路上面，對異質網路使用者提供了集中式資料存取服務。
+儲存區域網路
+根據將儲存設備與 SLA 及資料價值相匹配的原則，進行資料的調整和移動。
+
+9.nonvolatile  vs volatile
+非揮發性記憶體
+當電流關掉後，所儲存的資料不會消失的電腦記憶體
+volatile關鍵字聲明的變數或物件通常具有與最佳化、多執行緒相關的特殊屬性
+volatile關鍵字用來阻止（偽）編譯器認為的無法「被代碼本身」改變的代碼（變數/物件）進行最佳化
+
+10.近距離無線通訊（Near-field communication，NFC）
+又簡稱近距離通訊或近場通訊，是一套通訊協定
+讓兩個電子裝置（其中一個通常是行動裝置，例如智慧型手機）在相距幾公分之內進行通訊
+
+Von Neumann architecture
+是一種將程式指令記憶體和資料記憶體合併在一起的電腦設計概念架構
+本架構隱約指導了將儲存裝置與中央處理器分開的概念，因此依本架構設計出的計算機又稱儲存程序電腦。
+
+1. 說明檔案處理系統與資料庫系統這兩種方法的差異 [要說明優缺點]
+每個部門可以有一系列自己的檔案，可以為了特定的應用程式設計
+資料重複，資料隔離
+減少資料重複，資料的正確信，共享資料，減少研發的時間，較容易反應
+大型資料庫需要更多的資源，資料更容易受損
+
+2. 說明大數據的3V特性與5V特性
+3v 特性：数据体量的规模性（volume）、数据类型的多样性（variety）和数据处理速度的高速性（velocity）
+5V特性：數據量（volume）、數據速度（velocity）、數據多樣性（variety）、數據價值（value）、和數據精確性（veracity）
+
+3. 說明系統開發生命週期（system development life cycle）有哪些階段 ?每階段要做甚麼事?
+1-系統規劃 
+確定問題，目標和資源，如人員和成本。
+研究在與客戶，供應商，顧問和員工會面後提出替代解決方案的能力。
+研究如何使您的產品比競爭對手更好。
+2-  制度分析 終端使用者的要求應該被確定和記錄，他們對系統的期望是什麼，以及它將如何執行。
+還將對該專案進行可行性研究，包括確定其在組織，經濟，社會和技術上是否可行。
+與客戶保持良好的溝通水平非常重要，以確保您對成品及其功能有清晰的認識。
+3-系統設計 設計階段是在充分了解客戶需求之後，該階段定義了系統的元素，
+元件，安全級別，模組，體系結構以及通過系統的不同介面和資料型別。
+4-實施和部署 這個階段是在完全瞭解系統要求和規範之後，
+它是在為所請求的系統提供完整和圖示設計之後的實際構建過程。
+5-系統測試和整合 將不同的元件和子系統組合在一起以建立整個整合系統，
+然後將系統引入不同的輸入以獲取和分析其輸出和行為及其執行方式。
+測試對於確保客戶滿意度變得越來越重要，並且它不需要編碼，硬體配置或設計方面的知識。
+6-系統維護 在此階段，將對系統進行定期維護，以確保系統不會過時，
+這將包括更換舊硬體並持續評估系統性能，
+還包括為某些元件提供最新更新以確保它符合正確的標準和最新技術，以應對當前的安全威脅。
+
+4. 請舉程式語言例說明編譯器 （compiler）與直譯器（Interpreter）的差別
+complier需要先把不可被機器理解的High-level language（例如C或者C++）
+翻譯成可被機器理解的語言（一般是二進位制’0‘和’1‘），並存入新的目標檔案中
+Interpreter最明顯的特徵：一行一行讀取原始碼後，解釋，立即執行
+
+https://zh.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E6%9D%83%E9%99%90%E5%8E%9F%E5%88%99
+https://designtongue.me/%E8%A8%AD%E8%A8%88%E5%B8%AB%E5%BF%85%E6%87%82-wireframe-prototype-%E7%9A%84%E4%B8%8D%E5%90%8C/
+https://zh.wikipedia.org/wiki/%E6%A6%82%E5%BF%B5%E9%AA%8C%E8%AF%81
+https://zh.wikipedia.org/wiki/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95
+http://terms.naer.edu.tw/detail/1271590/
+https://blog.cwke.org/2010/11/system-conversion.html
+https://zh.wikipedia.org/wiki/%E8%A8%98%E6%86%B6%E9%AB%94%E9%9A%8E%E5%B1%A4
+https://yamol.tw/item_essay-%E4%B8%80%E3%80%81%E4%BD%95%E8%AC%82%E6%A9%9F%E5%99%A8%E9%80%B1%E6%9C%9F%EF%BC%88machine+cycle%EF%BC%89%EF%BC%9F%E8%A9%A6%E8%A9%B3%E8%BF%B0%E5%9F%B7%E8%A1%8C%E4%B8%80%E6%A2%9D%E6%8C%87%E4%BB%A4%E7%9A%84%E6%AD%A5%E9%A9%9F%E3%80%82%EF%BC%8810..-24580.htm
+https://zh.wikipedia.org/wiki/RAID
+https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E9%99%84%E5%8A%A0%E5%84%B2%E5%AD%98
+https://www.ibm.com/tw-zh/it-infrastructure/storage/san
+https://zh.wikipedia.org/wiki/%E9%9D%9E%E6%8F%AE%E7%99%BC%E6%80%A7%E8%A8%98%E6%86%B6%E9%AB%94
+https://zh.wikipedia.org/wiki/Volatile%E5%8F%98%E9%87%8F
+https://zh.wikipedia.org/wiki/%E8%BF%91%E5%A0%B4%E9%80%9A%E8%A8%8A
+https://zh.wikipedia.org/wiki/%E5%86%AF%C2%B7%E8%AF%BA%E4%BC%8A%E6%9B%BC%E7%BB%93%E6%9E%84
+http://people.chu.edu.tw/~b9103037/inf04.htm
+https://scholar.google.com.tw/scholar?q=%E5%A4%A7%E6%95%B8%E6%93%9A%E7%9A%843V%E7%89%B9%E6%80%A7&hl=zh-TW&as_sdt=0&as_vis=1&oi=scholart
+http://www.infocomm-journal.com/bdr/article/2016/2096-0271/2096-0271-2-3-00039.shtml
+https://www.itread01.com/content/1545288696.html
+https://www.itread01.com/content/1541335278.html
